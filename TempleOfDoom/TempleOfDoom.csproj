@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="JSON\**" />
+    <EmbeddedResource Remove="JSON\**" />
+    <None Remove="JSON\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TempleOfDoomController\TempleOfDoomController.csproj" />
+    <ProjectReference Include="..\TempleOfDoomData\TempleOfDoomData.csproj" />
+    <ProjectReference Include="..\TempleOfDoomModel\TempleOfDoomModel.csproj" />
+    <ProjectReference Include="..\TemploOfDoomView\TemploOfDoomView.csproj" />
+  </ItemGroup>
+
+</Project>

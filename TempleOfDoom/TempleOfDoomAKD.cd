@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="TempleOfDoom.Program">
+    <Position X="28.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TempleOfDoomData.JsonLevelDataReader" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TempleOfDoomView.ViewModels.ConsoleText">
+    <Position X="28" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomView.GameView">
+    <Position X="28.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomView.RoomView">
+    <Position X="23.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Decorators.BasicDoor">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Decorators.ClosingGateDecorator">
+    <Position X="11" Y="7.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Decorators.ColoredDoorDecorator">
+    <Position X="16" Y="7.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Decorators.DoorDecorator">
+    <Position X="13.25" Y="5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Decorators.OpenOnOddDoorDecorator">
+    <Position X="18.75" Y="7.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Decorators.OpenOnStonesInRoomDoorDecorator">
+    <Position X="7.5" Y="7.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Decorators.ToggleDoorDecorator">
+    <Position X="13.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Doors.Door">
+    <Position X="12" Y="1" Width="2.25" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="_connectedRoom1" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TempleOfDoomModel.Items.BoobyTrap">
+    <Position X="9.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TempleOfDoomModel.Items.DisappearingBT">
+    <Position X="9.5" Y="15" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TempleOfDoomModel.Items.Item">
+    <Position X="8.25" Y="10" Width="1.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Position" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TempleOfDoomModel.Items.Key">
+    <Position X="5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TempleOfDoomModel.Items.PressurePlate">
+    <Position X="7.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TempleOfDoomModel.Items.SankaraStone">
+    <Position X="11.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TempleOfDoomModel.Game">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TempleOfDoomModel.Player">
+    <Position X="4" Y="1.25" Width="2" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="CurrentRoom" />
+      <Field Name="Position" />
+      <Field Name="StartPosition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TempleOfDoomModel.Position">
+    <Position X="4" Y="7.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.Room">
+    <Position X="7.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.Factories.ConnectionFactory">
+    <Position X="23.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.Factories.DoorFactory">
+    <Position X="23.75" Y="2" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.Factories.ItemFactory">
+    <Position X="23.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.Factories.RoomFactory">
+    <Position X="21.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.RootobjectDTO">
+    <Position X="18.5" Y="12.25" Width="1.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TempleOfDoomData.PlayerDTO">
+    <Position X="15.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.RoomDTO">
+    <Position X="30.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.ItemDTO">
+    <Position X="19.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.ConnectionDTO">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.DoorDTO">
+    <Position X="20.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.GameFileReader">
+    <Position X="26" Y="2" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomData.XmlLevelDataReader" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="5.25" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TempleOfDoomController.ConsoleInput">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomController.IOController">
+    <Position X="31" Y="2.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TempleOfDoomModel.DirectionEnum">
+    <Position X="30.75" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="TempleOfDoomModel.IConnection">
+    <Position X="22" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="TempleOfDoomModel.IInteractable">
+    <Position X="23.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="TempleOfDoomModel.IPickable">
+    <Position X="27.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="TempleOfDoomModel.ItemInteract">
+    <Position X="29" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="TempleOfDoomModel.ItemStore">
+    <Position X="22" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="TempleOfDoomData.ILevelDataReader">
+    <Position X="25.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

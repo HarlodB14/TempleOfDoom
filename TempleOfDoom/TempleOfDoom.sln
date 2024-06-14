@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempleOfDoom", "TempleOfDoom.csproj", "{A87CC5DA-ACAC-4009-A87D-8F695F1746F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempleOfDoomController", "..\TempleOfDoomController\TempleOfDoomController.csproj", "{368F5136-8843-4B7D-86BF-5144B186A521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemploOfDoomView", "..\TemploOfDoomView\TemploOfDoomView.csproj", "{92790222-F842-449E-B003-C778A255F43C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempleOfDoomModel", "..\TempleOfDoomModel\TempleOfDoomModel.csproj", "{8E17AEB4-4460-4A15-8147-EEF9889C25D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempleOfDoomData", "..\TempleOfDoomData\TempleOfDoomData.csproj", "{49590169-278F-42E5-9879-5128307BAF06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A87CC5DA-ACAC-4009-A87D-8F695F1746F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87CC5DA-ACAC-4009-A87D-8F695F1746F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87CC5DA-ACAC-4009-A87D-8F695F1746F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87CC5DA-ACAC-4009-A87D-8F695F1746F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368F5136-8843-4B7D-86BF-5144B186A521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368F5136-8843-4B7D-86BF-5144B186A521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368F5136-8843-4B7D-86BF-5144B186A521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368F5136-8843-4B7D-86BF-5144B186A521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92790222-F842-449E-B003-C778A255F43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92790222-F842-449E-B003-C778A255F43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92790222-F842-449E-B003-C778A255F43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92790222-F842-449E-B003-C778A255F43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E17AEB4-4460-4A15-8147-EEF9889C25D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E17AEB4-4460-4A15-8147-EEF9889C25D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E17AEB4-4460-4A15-8147-EEF9889C25D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E17AEB4-4460-4A15-8147-EEF9889C25D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49590169-278F-42E5-9879-5128307BAF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49590169-278F-42E5-9879-5128307BAF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49590169-278F-42E5-9879-5128307BAF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49590169-278F-42E5-9879-5128307BAF06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF183DB0-7493-48F8-8872-51B6FBC8478A}
+	EndGlobalSection
+EndGlobal
